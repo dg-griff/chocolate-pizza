@@ -59,7 +59,34 @@ header h2 {
  }
 
  ul.ingredients {
+   text-align: center;
+   list-style-type: none;
    background-image: url("../img/list-bg.png");
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
  }
 
- 
+ footer.end {
+   text-align: center;
+   margin: 50px 0 50px 0;
+ }
+
+ img.end {
+   margin: 30px 0 30px 0;
+ }
+
+ li.strike {
+   text-decoration: line-through;
+ }
+
+ button {
+   color: white;
+   background-color: salmon;
+   float: right;
+   padding: 15px 30px 15px 30px;
+ }
+
